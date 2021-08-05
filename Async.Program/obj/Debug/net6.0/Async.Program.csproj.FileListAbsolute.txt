@@ -1,0 +1,16 @@
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.exe
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.deps.json
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.runtimeconfig.json
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.runtimeconfig.dev.json
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.dll
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\ref\Async.Program.dll
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\bin\Debug\net6.0\Async.Program.pdb
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.csproj.AssemblyReference.cache
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.AssemblyInfoInputs.cache
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.AssemblyInfo.cs
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.csproj.CoreCompileInputs.cache
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.dll
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\ref\Async.Program.dll
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.pdb
+C:\TSS\Cursos\Udemy\aspnet-core-6-y-react\Async\Async.Program\obj\Debug\net6.0\Async.Program.genruntimeconfig.cache
