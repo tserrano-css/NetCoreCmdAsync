@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TSS\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj": {}
+    "C:\\tss\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj": {}
   },
   "projects": {
-    "C:\\TSS\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj": {
+    "C:\\tss\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TSS\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj",
+        "projectUniqueName": "C:\\tss\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj",
         "projectName": "Async.Program",
-        "projectPath": "C:\\TSS\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj",
+        "projectPath": "C:\\tss\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\Async.Program.csproj",
         "packagesPath": "C:\\Users\\tserrano\\.nuget\\packages\\",
-        "outputPath": "C:\\TSS\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\obj\\",
+        "outputPath": "C:\\tss\\Cursos\\Udemy\\aspnet-core-6-y-react\\Async\\Async.Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tserrano\\AppData\\Roaming\\NuGet\\NuGet.Config",
