@@ -10,15 +10,19 @@ namespace Async.Program
             Coffee cup = PourCoffee();
             Console.WriteLine("Café está listo");
 
-            Egg eggs = await FryEggsAsync(2);
+            //Tareas que se ejecutan en paralelo
+            Task<Egg> eggsTask = FryEggsAsync(2);
+            Task<Bacon> baconTask = FryBaconAsync(3);
+            Task<Toast> toastTask = MakeToastWithButterAndJamAsync(2);
+            
+            //Cuando acaban las tareas se muestra es mensaje
+            Egg eggs = await eggsTask;
             Console.WriteLine("Huevos están listo");
 
-            Bacon bacon = await  FryBaconAsync(3);
+            Bacon bacon = await baconTask;
             Console.WriteLine("Tocino está listo");
 
-            Toast toast = await ToastBreadAsync(2);
-            ApplyButter(toast);
-            ApplyJam(toast);
+            Toast toast = await toastTask;
             Console.WriteLine("Tostadas están listo");
 
             Juice oj = PourOJ();
@@ -31,6 +35,13 @@ namespace Async.Program
         {
             Console.WriteLine("Servir zumo de naranja");
             return new Juice();
+        }
+
+        private static async Task<Toast> MakeToastWithButterAndJamAsync(int number){
+            Toast toast = await ToastBreadAsync(number);
+            ApplyButter(toast);
+            ApplyJam(toast);
+            return toast;
         }
 
         private static void ApplyJam(Toast toast) => 
