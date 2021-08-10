@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Async.Program
@@ -14,16 +15,32 @@ namespace Async.Program
             Task<Egg> eggsTask = FryEggsAsync(2);
             Task<Bacon> baconTask = FryBaconAsync(3);
             Task<Toast> toastTask = MakeToastWithButterAndJamAsync(2);
+
+            var list = new List<Task>{eggsTask, baconTask, toastTask};
+
+            while(list.Count > 0){
+                //Cuando ALGUNA de estas tareas este completada avisamos al usuario
+                Task finishedTask = await Task.WhenAny(list); 
+
+                if (finishedTask == eggsTask)
+                    Console.WriteLine("Huevos están listo");
+                
+                if (finishedTask == baconTask)
+                    Console.WriteLine("Tocino está listo");
+
+                if (finishedTask == toastTask)
+                    Console.WriteLine("Tostadas están listo");
+
+                list.Remove(finishedTask);
+            }
             
-            //Cuando acaban las tareas se muestra es mensaje
-            Egg eggs = await eggsTask;
+
+            //Con WhenAll, el programa continua cuando TODAS las tareas se han completado
+            /*await Task.WhenAll(eggsTask, baconTask, toastTask);
             Console.WriteLine("Huevos están listo");
-
-            Bacon bacon = await baconTask;
             Console.WriteLine("Tocino está listo");
-
-            Toast toast = await toastTask;
             Console.WriteLine("Tostadas están listo");
+            */
 
             Juice oj = PourOJ();
             Console.WriteLine("Zumo está listo");
